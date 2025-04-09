@@ -1,0 +1,151 @@
+Data Science:
+
+      Data Science is the process of understanding hte patterns of the data
+                                                       insights of the data
+                                                       trends   of the data
+                                                       forecast of the data
+
+      Data
+          Structured       - CSV, EXcel, JSON, DB (SQL, Mongo, Oralce)
+          Un-Structured    - Image, audio , video
+          Semi-Structured  - Text file
+
+      Machine Learning is the mechansim or algorithm to find the data insight and forecast.
+
+      Python is the primary source for the machine learning algorithm
+
+Artificial Intelligence:
+
+Machine LEarning(Structure) + Deep LEarning(Un-Structure) is the same process about finding the details of the data or finding the beautiful
+insights of the data.
+
+Data Analyst or Data Analytics:
+
+Finding details about the data, projecting the data, manipulating the database to do all ETL activity.
+
+Extraction , Transformation and Learning Loading
+
+Data Science:
+
+1. Data Preprocessing
+2. Data Model (prediciton)
+3. Data MEtrics and Visulization
+
+Data Analytics:
+
+1. Data Preprocessing (ETL)
+2. Visulation and Metrics
+3. Tool : PowerBI, Tableau, SQL or ORacle
+
+Data Engineering:
+
+Data Storage, Data Renention, Data Logging, Data (pyspark, hadoop , bigdata)
+
+----------------------------------------------------------------------------------------------
+
+No - Code Data Science:
+
+AWs, Azure, and Dataikq(tool)
+
+----------------------------------------------------------------------------------------------
+
+Important Link
+
+Dataiku ---> https://www.dataiku.com/product/get-started/windows/
+Python  ---> https://www.python.org/downloads/
+             https://www.python.org/downloads/release/python-3129/    (my choice)
+
+idle   ----> default python tool for writin python code
+
+Pycharm ---> https://www.jetbrains.com/pycharm/download/?section=windows
+
+Jupyter --->  https://www.anaconda.com/download/success
+              https://jupyter.org/install
+
+-------------------------------------------------------------------------
+Syllabus
+------------------------------------------------------------------------
+
+Installation (python, jupyter, dataiku)
+
+Data Preprocessing:
+         1. How to read the data(csv file)
+         2. How to read the data if it has time based column(csv file)
+
+Data Cleaning:
+         1. Finding Null data , Filling Null data, Remvoing Null data
+         2. Finding Duplicated data, removing duplicated data
+
+Data wrangling :(feature engineering)
+
+          1. Converting categorical data into numerical data
+          2. converting one form of numerical data into another form (Transformation)
+d
+Exploratory Data Analysis: (Visualization)
+
+           1. Matplotlib
+           2. seaborn
+           3. plotly and dash
+
+FEature Selection:
+
+           1. When we dont know what to select as input. we will be going for this method.
+
+Machine Learning Models:
+
+                    1. Supervised Algorithm
+
+                          1. Linear Regression
+                          2. Logistic Regression
+                          3. Decision Tree
+                          4. Random Forest
+                          5. Support Vector Machine
+                          6. KNN (K Nearest Neighbour)
+                          7. Naive Bayes
+
+                    2. UnSupervised Algorithm
+
+                          1. PCA (Principal Componenet Analysis)
+                          2. K-Means (Clustering)
+                          3. T-SNE
+                          4. Hierarchial Clustering
+                          5. dBSCAN
+
+                    3. Semi-Supervised Algorithm
+
+Model Tuning and Hyperparameter optimization
+
+Model Deployment
+
+Libraries:
+
+numpy, pandas, scikit-learn, scipy, statsmodels, matplotlib, seaborn and plotly and dash
+
+Statistics and Number:
+
+         1. Distribution(uniform and normal)
+         2. Skewness and kurtosis
+         3. probability and hypothesis.
+
+Tools:
+
+GITHUB
+Concourse
+PowerBI (Data Analytics)
+SQL (DB)
+NLP and Deep Learning(neural network)
+MLops (on interest)
+
+
+CSV -
+
+Year    Price
+----------
+2000        1000
+2001        2000
+2002        3000
+
+Tips of the day:
+
+input   ----> feature, independent data or x data (two dimension)
+output  ----> target,   dependent data or y data (one dimension)
