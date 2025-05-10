@@ -1,0 +1,67 @@
+Machine Learning ---->
+
+It is the process of letting the machine to train on specific
+data and produce result with the knowledge gained on training.
+
+Machine ----> Program ----> Algorithm(data read)
+
+When you feed some historical data to the machine (program or algorithm) and let that to
+get trained.
+
+Libraries ---> Reading the File ----> Training on the data ----> Testing the data --->
+checking the accuracy
+
+Libraries:
+
+from sklearn.linear_model import LinearRegression
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import r2_score
+
+Supervised_Learning:
+
+Input: x data or feature data or independent data(columns)
+Output: y data or target data or dependent data(columns)
+
+all the above input and output will be in the file that we might use
+
+Case Study:
+
+1. We can either decide the target by our own or some time client will tell you
+what needs to be found out.
+
+1.1 After deciding what is our target. we should see how our target looks like
+        Regression:
+
+        Price: 2000,3000,4000,5000 (Regression)
+
+        Classification:
+
+            Binary Classification:
+                    Cancer: Yes or No
+
+            Multi Classification:
+                      Player_Type: WK or B or Bow or A
+
+1.2 After choosing the target, focus on the input and see how its stands on the output
+
+              Year   Sq_Feet Price
+              2000      100     10000
+              2001      110     15000
+              2002      130     20000
+
+2. We can choose all the other as x data or we can only few as x data.
+
+2.1 on what basis we should choose x data.
+2.2 for choosing x data we have few inbuilt library or methods to find.
+    2.2.1. Feature Selection
+
+Linear Regression:
+
+Linear Regression model will be used when our output is continuous data
+and input data is having linear relationship.
+
+
+
+
+
